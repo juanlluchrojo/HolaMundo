@@ -6,6 +6,7 @@ Motivo: Creación del primer fichero en C
 
 //Declaración de librerías
 #include <stdio.h>
+#include <stdlib.h>
 
 //Función Main
 int main(){
@@ -15,6 +16,9 @@ int main(){
     Hola Mundo en la terminal
     */
     printf("Hola Mundo\n");
+
+    //Pausa del Sistema
+    system("pause");
     
     //Termina la ejecución del programa
     return 0;
